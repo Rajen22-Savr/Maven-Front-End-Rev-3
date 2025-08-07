@@ -21,7 +21,8 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://maven-backend-j2mj.onrender.com/upload/",
+        //"https://maven-backend-j2mj.onrender.com/upload/",
+        "https://maven-backend-agentic-ver-3-5.onrender.com/upload/",
         formData
       );
       setTopSuppliers(response.data.top_suppliers);
